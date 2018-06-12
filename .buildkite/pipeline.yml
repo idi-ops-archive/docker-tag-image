@@ -18,6 +18,6 @@ steps:
 
   - name: ":rocket:"
     command:
-      - "./release/release.sh"
+      - "release.sh"
     concurrency: 1
     concurrency_group: "docker-release"
